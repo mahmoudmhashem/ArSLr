@@ -1,3 +1,4 @@
+import os
 import cv2
 import torch
 import numpy as np
@@ -48,7 +49,7 @@ def main():
                                 cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2, cv2.LINE_AA)
                     
                     # Show to screen
-                    cv2.imshow('OpenCV Feed', frame)
+                    cv2.imshow('Dynamyc Words Of Arabic Sign Language Recognition', frame)
 
                     if cv2.waitKey(1) & 0xFF == ord('q'):
                         break
@@ -62,5 +63,7 @@ def main():
         raise e
 
 if __name__ == "__main__":
-    model = torch.jit.load('model.pt')
+    file_loaction = os.path.dirname(os.path.abspath(__file__))
+    os.chdir(file_loaction)
+    model = torch.jit.load('../assests/model.pt')
     main()
