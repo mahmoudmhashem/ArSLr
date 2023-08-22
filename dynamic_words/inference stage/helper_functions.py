@@ -10,7 +10,7 @@ HandLandmarkerOptions = mp.tasks.vision.HandLandmarkerOptions
 
 PoseLandmarker = mp.tasks.vision.PoseLandmarker
 PoseLandmarkerOptions = mp.tasks.vision.PoseLandmarkerOptions
-pose_model_path = '../assests/pose_landmarker_heavy.task'
+pose_model_path = '../assests/pose_landmarker_lite.task'
 hand_model_path = '../assests/hand_landmarker.task'
 
 
