@@ -7,7 +7,6 @@ from helper_functions import *
 
 def main():
     cap = cv2.VideoCapture(0)
-    video_npy_ls = []
 
     potential_label = "None"
     current_label = "None"
@@ -21,7 +20,6 @@ def main():
                         break
                     frame_timestamp_ms = int(cap.get(cv2.CAP_PROP_POS_MSEC))
                     frame_npy = frame2npy(frame, frame_timestamp_ms, poselandmarker, handlandmarker)
-                    video_npy_ls.append(frame_npy)
 
                     frame_npy = np.expand_dims(frame_npy, (0, 1))
                     frame_npy_tensor = torch.from_numpy(frame_npy)
