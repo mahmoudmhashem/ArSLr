@@ -47,8 +47,8 @@ The **demos** directory contains demonstration videos that showcase the capabili
 
 To experience the power of our models, you can use the provided interactive Colab notebooks. Simply click the buttons below to launch the notebooks in Google Colab:
 
-- Letters Demo: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mahmoudmhashem/ArSLr/blob/master/alphabets/inference%20stage/test.ipynb)
-- Dynamic Words Demo: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mahmoudmhashem/ArSLr/blob/master/dynamic_words/inference%20stage/%5Brealtime%5D%20test_lstm_new_mediapipe.ipynb)
+- Letters Demo: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mahmoudmhashem/ArSLr/blob/master/demos/colab/colab_Letters_of_Arabic_Sign_Language_Recognition.ipynb)
+- Dynamic Words Demo: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mahmoudmhashem/ArSLr/blob/master/demos/colab/colab_%5Brealtime%5D_test_lstm_new_mediapipe.ipynb)
 
 ## Local Usage
 
